@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import './index.css'
+import './App.css'
 import { initializeApp } from 'firebase/app';
 import { getFirestore, doc, setDoc, onSnapshot } from 'firebase/firestore';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
